@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/images/Logo.JPG" rel="icon" type="image/x-icon">
+
+
+  <title>Reportajes</title>  
+  <link href="./main.d8e0d294.css" rel="stylesheet">
+  
+  <!-- GLightbox CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+  
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: 
+        linear-gradient(135deg, rgba(0,123,255,0.6) 0%, rgba(0,198,255,0.6) 100%), 
+        url('./assets/images/Reportajes/1.JPG');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .background-color-layer {
+      background-image: url('assets/images/img-01.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+
+    .gallery {
+      column-count: 3;
+      column-gap: 15px;
+    }
+    .gallery a {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .gallery {
+        column-count: 2;
+      }
+    }
+    @media (max-width: 480px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <div class="background-color-layer"></div>
+  <header class="white-text-container section-container">
+    <div class="text-center">
+      <h1>Miguel Fillol</h1>
+      <p>Fotógrafo</p>
+    </div>
+  </header>
+
+  
+  <main class="content-wrapper">
+    <div class="container">
+      <div class="card">
+        <div class="card-block">
+          <h2>Reportajes</h2>
+
+          <div class="gallery">
+
+            <a href="./assets/images/Reportajes/2.jpg" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/2.jpg">
+            </a>
+            <a href="./assets/images/Reportajes/3.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/3.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/4.jpg" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/4.jpg">
+            </a>
+            <a href="./assets/images/Reportajes/1.jpg" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/1.jpg">
+            </a>
+            <a href="./assets/images/Reportajes/5.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/5.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/6.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/6.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/8.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/8.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/7.jpg" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/7.jpg">
+            </a>
+            <a href="./assets/images/Reportajes/8.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/8.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/9.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/9.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/10.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/10.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/11.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/11.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/12.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/12.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/13.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/13.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/14.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/14.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/15.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/15.JPG">
+            </a>
+            <a href="./assets/images/Reportajes/16.JPG" class="glightbox" data-gallery="amelia">
+              <img src="./assets/images/Reportajes/16.JPG">
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-container white-text-container text-center">
+    <div class="container">
+      <p>©Miguel Fillol Photography</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    const lightbox = GLightbox({
+      selector: '.glightbox'
+    });
+  </script>
+</body>
+</html>
